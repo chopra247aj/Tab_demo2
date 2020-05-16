@@ -53,7 +53,8 @@ public class MainActivity extends AppCompatActivity implements OnFragmentInterac
                 startActivity(i2);
                 break;
             case R.id.item3:
-                Toast.makeText(this, "View Activity", Toast.LENGTH_SHORT).show();
+                Intent i3=new Intent(MainActivity.this,Main3Activity.class);
+                startActivity(i3);
                 break;
         }
 

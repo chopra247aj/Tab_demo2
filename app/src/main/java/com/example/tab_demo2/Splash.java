@@ -13,6 +13,7 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        getSupportActionBar().hide();
         ImageView i =findViewById(R.id.imageView4);
         i.setImageResource(R.drawable.pac);
         new Handler().postDelayed(new Runnable() {
@@ -25,6 +26,6 @@ public class Splash extends AppCompatActivity {
                 startActivity(i);
                 finish();
             }
-        }, 1000);
+        }, 1500);
     }
 }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAC is Android Based Application with which users can compare the Charges of Rides and also prices of food items . It can help people to:
+1.Save Time of user by showing different types of news on one platform.
+2.Kill effort of using different apps for Rides and Food Ordering
+3.Show user variety of restaurant for food and Different types of rides on user location
+
+There are two modules in  our system
+1-PAC RIDES(for comparing Ride charges)
+2-PAC EATS( for comparing food prices)"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pac"/>
+
+
+</LinearLayout>
